@@ -1,22 +1,21 @@
-import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
 
+import React from 'react'
 
 
 export const About = () => {
   return (
     <div>
-        <li>
-            <ul>
+        <ul>
+            <li>
                 Home
-            </ul>
-            <ul>
+            </li>
+            <li>
                 Contacts
-            </ul>
-            <ul>
+            </li>
+            <li>
                 About
-            </ul>
-        </li>
+            </li>
+        </ul>
         <main>
             <h1>Delta Educatin - это лучшая школа программирования в городе Семей</h1>
             <p>Delta Education предоставляет курсы на выбор Python-developer, PHP-developer, HTML & CSS, Базы данных, Unity-developer
